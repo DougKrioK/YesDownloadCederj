@@ -1,0 +1,20 @@
+{
+
+  "description": "YesDownload Cederj",
+  "manifest_version": 2,
+  "name": "YesDownloadCederj",
+  "version": "1.0",
+  "homepage_url": "https://github.com/DougKrioK/YesDownloadCederj",
+  "icons": {
+    "48": "icons/images.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.videoaula.rnp.br/*"],
+      
+      "js": ["index.js"]
+    }
+  ]
+
+}
